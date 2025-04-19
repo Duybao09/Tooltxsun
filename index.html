@@ -1,8 +1,9 @@
-<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html><html lang="vi">
+<!DOCTYPE html>
+<html lang="vi">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tool Dự Đoán TÀI XỈU KanHaoDATA</title>
+  <title>Tool Dự Đoán TÀI XỈU DuyBaodz</title>
   <style>
     body {
       margin: 0;
@@ -55,12 +56,14 @@
 </head>
 <body>
   <div class="container">
-    <h1>TÀI XỈU<br>t.me/KanHaoDATA</h1>
+    <h1>TÀI XỈU<br>t.me/ngoclinh2809</h1>
     <input type="text" id="md5Input" placeholder="Nhập mã MD5..." />
     <br />
     <button id="predictBtn">DỰ ĐOÁN</button>
     <div id="result">Kết quả : </div>
-  </div>  <script>
+  </div>
+
+  <script>
     const predictBtn = document.getElementById('predictBtn');
     const result = document.getElementById('result');
 
@@ -76,5 +79,6 @@
       const prediction = fakePredict(md5);
       result.textContent = prediction;
     });
-  </script></body>
+  </script>
+</body>
 </html>
